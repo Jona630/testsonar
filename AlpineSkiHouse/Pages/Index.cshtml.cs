@@ -17,6 +17,15 @@ namespace AlpineSkiHouse.Pages
             _logger = logger;
         }
 
+        public int testmethod(int input)
+        {
+            int output;
+
+            output = input * 2;
+
+            return output;
+        }
+
         public void OnGet()
         {
 
